@@ -5,7 +5,8 @@ A repo where I save my open-sourced Projects.
 ## 2020 Archive
 
 * [Girus Remover Practice](./Practices/2020_Girus_Remover)
-* [Google IT Python Automation 6th Course](./Practices/2020_Google_IT_Python_Automation_6th_Course)
+* [Google IT Python Automation 6th Course](./Courses%20&%20Scholarships/2020_Google_IT_Python_Automation_6th_Course)
+* [Advanced Data Analysis Scholarship](./Courses%20&%20Scholarships/2020_Advanced_Data_Analysis_Udacity)
 
 ## 2021 Archive
 
