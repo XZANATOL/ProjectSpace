@@ -13,6 +13,10 @@ A repo where I save my open-sourced Projects.
 * [GSSOC Contest](./Contests/2021_GSSOC)
 * [Book Store System C Practice](./Practices/2021_Book_Store_System_C_Project)
 * [Destreamer Installer Practice](./Practices/2021_Destreamer_Installer)
+* [Topology API NodeJS](./Practices/2021_Topology_API_NodeJS)
+* [Function Plotter Python](./Practices/2021_Function_Plotter_Python)
+* [Object Detection Python](./Practices/2021_Object_Detection_Python)
+* [Shopping Cart Webapp](./Practices/2021_Shopping_Cart_Webapp)
 
 ## 2022 Archive
 
