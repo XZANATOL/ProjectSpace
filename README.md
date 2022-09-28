@@ -1,12 +1,11 @@
 # ProjectSpace
 
-A repo where I save my open-sourced Projects.
+A repo where I save my OSS projects.
 
-## 2020 Archive
+## 2022 Archive
 
-* [Girus Remover Practice](./Practices/2020_Girus_Remover)
-* [Google IT Python Automation 6th Course](./Courses%20&%20Scholarships/2020_Google_IT_Python_Automation_6th_Course)
-* [Advanced Data Analysis Scholarship](./Courses%20&%20Scholarships/2020_Advanced_Data_Analysis_Udacity)
+* [GSSOC Contest](./Contests/2022_GSSOC)
+* [XZANSite Heroku Practice](./Practices/2022_heroku_website)
 
 ## 2021 Archive
 
@@ -19,7 +18,13 @@ A repo where I save my open-sourced Projects.
 * [Object Detection Python](./Practices/2021_Object_Detection_Python)
 * [Shopping Cart Webapp](./Practices/2021_Shopping_Cart_Webapp)
 
-## 2022 Archive
+## 2020 Archive
 
-* [GSSOC Contest](./Contests/2022_GSSOC)
+* [Girus Remover Practice](./Practices/2020_Girus_Remover)
+* [Google IT Python Automation 6th Course](./Courses%20&%20Scholarships/2020_Google_IT_Python_Automation_6th_Course)
+* [Advanced Data Analysis Scholarship](./Courses%20&%20Scholarships/2020_Advanced_Data_Analysis_Udacity)
+
+
+
+
 

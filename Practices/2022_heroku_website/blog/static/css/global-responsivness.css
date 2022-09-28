@@ -1,0 +1,66 @@
+.switched-color-background{
+    background-color: #181d21;
+}
+
+.post-title-thumbnail,
+.switched-color-headers{
+	text-decoration: none;
+	color: white;
+}
+
+.post-title-thumbnail-hover-dark:hover{
+	color: #901010 !important;
+}
+
+.post-title-thumbnail-hover-light:hover{
+	color: #c0cfb2 !important;
+}
+
+.switched-color-normals{
+    color:rgb(255 255 255 / 75%);
+}
+
+.box{
+	background-color:#4a4a4a26;
+    box-shadow:-10px 5px 30px rgb(0 0 0 / 50%);
+    border-radius:15px;
+    height: 100%;
+}
+
+.post_image{
+    width: 100%;
+    border: 3px solid #11a511;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Theme Switcher Classes */
+.checkbox{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-thumb {
+    position: fixed;
+    top: 5%;
+    right: 3.25%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.toggle-thumb:before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: inherit;
+    top: 5%;
+    right: 3%;
+    border-radius: 50%;
+    background-color: #128e12;
+    transition: .4s all ease;
+}
+
+
+.checkbox:checked + .toggle-thumb:before {
+    transform: translateY(42px);
+}

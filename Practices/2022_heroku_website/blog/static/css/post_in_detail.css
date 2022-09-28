@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1008px){
+    .width-adjustor{
+        width: 50%;
+    }
+}
+
+.form-properties{
+    background: transparent;
+    border-style: none none solid none;
+    border-radius: 0;
+    border-color: #11a511;
+    width: 100%;
+
+}
+
+.form-properties:focus{
+    border-color: #2fdb38;
+    outline: 0;
+}
+
+input.social-media{
+    background: transparent;
+    border-radius: 15px;
+    border-color: #11a511;
+    color: #11a511;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load blog_tags %}
+{% load static %}
+
+
+{% block title %}Blog - Home{% endblock %}
+
+{% block add_static %}
+<link rel="stylesheet" href="{% static 'css/blog_home.css' %}" />
+{% endblock %}
+
+{% block body %}
+<!-- Start header -->
+<header class="container" style="text-align: center;">
+	<h1 class="box switched-color-headers" style="padding: 10px 25% 10px 25%; margin-top: 2%; display: inline-block;">Blog - Home<br><span class="switched-color-normals" style="margin-top:5px; font-size: 18px;">Total posts: {% total_posts %}</span></h1>
+</header>
+<!-- End header -->
+
+<br>
+<br>
+
+<main>
+	<!-- Start Latest -->
+	<section id="latest">
+		<div class="container-fluid">
+			<h2 class="switched-color-headers" style="padding: 10px 3% 10px 3%; display: inline-block;">Latest _ <hr class="switched-color-normals"></h2>
+		</div>
+		<div class="container-fluid row" >
+			{% for post in latest %}
+				<div class="col-xs-12 col-md-4" style="padding-bottom: 4%;">
+					<div class="box" style="padding: 30px;">
+						<img src="{{ post.img }}" class="post_image">
+
+						<h3 class="switched-color-headers" style="margin-top: 5px;"><a href="{{ post.cat }}/{{ post.slug }}" class="post-title-thumbnail post-title-thumbnail-hover-dark">{{ post.title }}</a></h3>
+
+						<p class="switched-color-normals">Created on {{ post.created }}</p>
+						<p class="switched-color-normals">{{ post.body|truncatewords:50 }}</p>
+						<hr style="background-color: #11a511; height: 2px; opacity: 1; border: none;">
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+	<!-- End Latest -->
+
+	<!-- Start Updated -->
+	<section id="updated">
+		<div class="container-fluid">
+			<h2 class="switched-color-headers" style="padding: 10px 3% 10px 3%; display: inline-block;">Updated _ <hr class="switched-color-normals"></h2>
+		</div>
+		<div class="container-fluid row" >
+			{% for post in updated %}
+				<div class="col-xs-12 col-md-4" style="padding-bottom: 4%;">
+					<div class="box" style="padding: 30px;">
+						<img src="{{ post.img }}" class="post_image">
+
+						<h3 class="switched-color-headers" style="margin-top: 5px;"><a href="{{ post.cat }}/{{ post.slug }}" class="post-title-thumbnail post-title-thumbnail-hover-dark">{{ post.title }}</a></h3>
+
+						<p class="switched-color-normals">Updated on {{ post.created }}</p>
+						<p class="switched-color-normals">{{ post.body|truncatewords:50 }}</p>
+						<hr style="background-color: #11a511; height: 2px; opacity: 1; border: none;">
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+	<!-- End Updated -->
+
+	<!-- Start Categories -->
+	<section id="categories">
+		<div class="container-fluid">
+			<h2 class="switched-color-headers" style="padding: 10px 3% 10px 3%; display: inline-block;">Categories _ <hr class="switched-color-normals"></h2>
+		</div>
+		<div class="container-fluid row" >
+			{% for category in categories %}
+				<div class="col-xs-12 col-md-4" style="padding-bottom: 4%;">
+					<div class="box" style="padding: 30px; text-align: center;">
+						<h3 class="switched-color-headers" style="margin-top: 5px;"><a href="{{ category.title }}/" class="post-title-thumbnail post-title-thumbnail-hover-dark">{{ category.title }}</a></h3>
+						<hr style="background-color: #11a511; height: 2px; opacity: 1; border: none;">
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+	<!-- End Categories -->
+</main>
+{% endblock %}

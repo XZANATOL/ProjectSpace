@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Blog - {{ cat }}{% endblock %}
+
+{% block body %}
+<!-- Start header -->
+<header class="container" style="text-align: center;">
+	<h1 class="box switched-color-headers" style="padding: 10px 25% 10px 25%; margin-top: 1%; display: inline-block;">Blog - {{ cat }}<br><span class="switched-color-normals" style="margin-top:5px; font-size: 18px;">Total posts: {{ count }}</span></h1>
+</header>
+<!-- End header -->
+
+<!-- Start Back Button -->
+<a href=".." id="back" class="post-title-thumbnail-hover-dark" style="position: absolute; top: 5%; left: 3.25%; color: #11a511;">
+	<svg xmlns="http://www.w3.org/2000/svg" width="22" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+	  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+	</svg>
+</a>
+<!-- End Back Button -->
+
+<br>
+<br>
+
+<div class="container-fluid row">
+	{% for post in posts %}
+	<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3" style="padding-bottom: 4%;">
+		<div class="box" style="padding: 30px;">
+			<img src="{{ post.img }}" class="post_image">
+
+			<h3 class="switched-color-headers" style="margin-top: 5px;"><a href="{{ post.slug }}" class="post-title-thumbnail post-title-thumbnail-hover-dark">{{ post.title }}</a></h3>
+
+			<p class="switched-color-normals">Created on {{ post.created }}</p>
+			<p class="switched-color-normals">{{ post.body|truncatewords:50 }}</p>
+			<hr style="background-color: #11a511; height: 2px; opacity: 1; border: none;">
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}

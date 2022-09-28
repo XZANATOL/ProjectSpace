@@ -1,0 +1,166 @@
+html, section{
+    padding-bottom: 15px;
+}
+
+
+.profile-container {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+button.social-media, input.social-media{
+    background: transparent;
+    border-radius: 15px;
+    border-color: #11a511;
+    color: #11a511;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.button-hover-dark:hover{
+    background: #901010;
+}
+.button-hover-light:hover{
+    background: #c0cfb2;
+}
+
+a.social-media,
+a.social-media:visited{
+    text-decoration: none;
+    color: #11a511;
+}
+
+/*Used in resume section*/
+.record-border{
+    border-right: 2px solid #11a511;
+    margin-top: 10px;
+}
+
+ul li::marker{
+    color: #11a511;
+}
+
+
+/*
+Display functions are used in the resume section
+to adjust the borders of each occupation record
+max-width for xs & sm screens and min-width for
+screens >= md. (options are only inverted)
+*/
+@media only screen and (max-width: 768px) {
+    .row > * {
+        padding: 0px;
+    }
+
+
+    .dis-y{
+        display: block;
+    }
+
+
+    .dis-n{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dis-y{
+        display: none;
+    }
+
+
+    .dis-n{
+        display: block;
+    }
+}
+
+
+.project_img{
+    width: 100%;
+    border: 3px solid #11a511;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #11a511;
+    border-bottom: none;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] .active{
+    background-color: #11a511;
+    border-bottom: none;
+}
+
+
+.form-properties{
+    background: transparent;
+    border-style: none none solid none;
+    border-radius: 0;
+    border-color: #11a511;
+    width: 100%;
+
+}
+
+.form-properties:focus{
+    border-color: #2fdb38;
+    outline: 0;
+}
+
+
+.switch {
+    display: inline-block;
+    width: 60px;
+    height: 33px;
+    position: relative;
+}
+
+
+.toggle-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 70px;
+}
+
+
+.toggle-thumb:before {
+    content: "";
+    height: 28px;
+    width: 30px;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 50%;
+    background-color: #128e12;
+    transition: .4s all ease;
+}
+
+
+.checkbox{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.checkbox:checked + .toggle-thumb:before {
+    transform: translateX(-34px);
+}
