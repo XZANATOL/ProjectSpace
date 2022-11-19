@@ -1,11 +1,12 @@
 # ProjectSpace
 
-A repo where I save my OSS projects.
+Repo where I save my OSS projects.
 
 ## 2022 Archive
 
 * [GSSOC Contest](./Contests/2022_GSSOC)
 * [XZANSite Heroku Practice](./Practices/2022_heroku_website)
+* [8086 Assembly](./Practices/2022_8086_Assembly)
 
 ## 2021 Archive
 
