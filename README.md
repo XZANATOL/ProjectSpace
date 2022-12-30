@@ -2,6 +2,10 @@
 
 Repo where I save my OSS projects.
 
+## 2023 Archive
+
+* [Cat EyeBalls Tracker](./Practices/2023_Cat_EyeBalls_Tracker)
+
 ## 2022 Archive
 
 * [GSSOC Contest](./Contests/2022_GSSOC)
