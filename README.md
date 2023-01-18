@@ -1,10 +1,11 @@
 # ProjectSpace
 
-Repo where I save my OSS projects.
+Repo to save my OSS projects.
 
 ## 2023 Archive
 
-* [Cat EyeBalls Tracker](./Practices/2023_Cat_EyeBalls_Tracker)
+* [Cat EyeBalls Tracker Practice](./Practices/2023_Cat_EyeBalls_Tracker)
+* [DataChat Practice](https://github.com/XZANATOL/DataChat)
 
 ## 2022 Archive
 
