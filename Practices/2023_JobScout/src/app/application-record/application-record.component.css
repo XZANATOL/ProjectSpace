@@ -1,0 +1,39 @@
+form{
+	margin-left: 8px;
+}
+label{
+	color: white;
+	margin-right: 12px;
+}
+input, select, textarea, .submit{
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	background: #A6A6AC;
+	padding: 6px;
+	width: 15rem;
+	color: black;
+	margin-top: 5px;
+}
+span{
+	color: #efefef;
+}
+
+
+.title-wrapper{
+	height: 70px;
+	width: 100%;
+}
+.cvButton{
+	margin-left: 5px;
+}
+.submit, button{
+	cursor: pointer;
+	transition: 0.3s;
+}
+.submit:hover{
+	background: #97979B;
+}
+.error{
+	color: red;
+}

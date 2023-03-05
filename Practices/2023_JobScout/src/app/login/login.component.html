@@ -1,0 +1,55 @@
+<section class="highlightCard">
+
+	<div>
+		<div class="icon-wrapper">
+			<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#FFFFFF" class="bi bi-file-earmark-break" viewBox="0 0 16 16">
+			  <path d="M14 4.5V9h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v7H2V2a2 2 0 0 1 2-2h5.5L14 4.5zM13 12h1v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2h1v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-2zM.5 10a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1H.5z"/>
+			</svg>
+		</div>
+
+		<div class="text-wrapper">
+			<p>Welcome back to JobScout!</p>
+		</div>
+	</div>
+
+</section>
+<section class="form-wrapper">
+
+	<div class="form">
+		<h1>Login</h1>
+		<div class="form-control">
+			<div class="c_validationFail">
+				<div *ngIf="validationFail">
+					<span class="error">Check your Email or Password!</span>
+				</div>
+			</div>
+			<label for="email">E-mail:<br></label>
+			<input type="email" name="email" [(ngModel)]="email" #emailT="ngModel" required email="true">
+			<div *ngIf="emailT.invalid && (emailT.dirty || emailT.touched)">
+				<div *ngIf="emailT.errors?.['required']">
+					<span class="error">Required</span>
+				</div>
+
+				<div *ngIf="emailT.errors?.['email']">
+					<span class="error">Invalid Email</span>
+				</div>
+			</div>
+
+			<div class="seperator"></div>
+
+			<label for="password">Password:<br></label>
+			<input type="password" name="password" [(ngModel)]="password" #passwordT="ngModel" required>
+			<div *ngIf="passwordT.invalid && (passwordT.dirty || passwordT.touched)">
+				<div *ngIf="passwordT.errors?.['required']">
+					<span class="error">Required</span>
+				</div>
+			</div>
+
+			<div class="seperator"></div>
+			
+			<button class="submit" (click)="submit()" [disabled]="!(emailT.valid && passwordT.valid)" [class.clicked]="clicked || (!(emailT.valid && passwordT.valid) || emailT.untouched)">Login</button>
+		</div>
+
+	</div>
+	
+</section>
