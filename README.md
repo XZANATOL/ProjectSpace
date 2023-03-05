@@ -4,8 +4,11 @@ Repo to save my OSS projects.
 
 ## 2023 Archive
 
+* [PyneCone Explore Practice](./Practices/2023_pc_explore)
+* [JobScout Practice](./Practices/2023_JobScout)
+* [Angular Docs Tutorial Practice](./Practices/2023_Angular-Docs-Tutorial)
+* [DataChat Practice](https://github.com/XZANATOL/DataChat) (external)
 * [Cat EyeBalls Tracker Practice](./Practices/2023_Cat_EyeBalls_Tracker)
-* [DataChat Practice](https://github.com/XZANATOL/DataChat)
 
 ## 2022 Archive
 

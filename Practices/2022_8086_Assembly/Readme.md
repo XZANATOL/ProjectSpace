@@ -1,0 +1,1 @@
+Attached [article](https://xzansite.cyclic.app/blog/Electronics/Embedded_Systems/8086_Assembly).

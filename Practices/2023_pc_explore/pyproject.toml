@@ -1,0 +1,57 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "XZANATOL", email = "abdelrahmanbedox@gmail.com"},
+]
+dependencies = [
+    "pynecone>=0.1.18",
+    "anyio==3.6.2",
+    "async-timeout==4.0.2",
+    "bidict==0.22.1",
+    "certifi==2022.12.7",
+    "click==8.1.3",
+    "cloudpickle==2.2.1",
+    "colorama==0.4.6",
+    "commonmark==0.9.1",
+    "fastapi==0.88.0",
+    "greenlet==2.0.2",
+    "gunicorn==20.1.0",
+    "h11==0.14.0",
+    "httpcore==0.16.3",
+    "httpx==0.23.3",
+    "idna==3.4",
+    "plotly==5.13.1",
+    "psutil==5.9.4",
+    "pydantic==1.10.2",
+    "pygments==2.14.0",
+    "pynecone==0.1.18",
+    "python-engineio==4.3.4",
+    "python-socketio==5.7.2",
+    "redis==4.5.1",
+    "rfc3986==1.5.0",
+    "rich==12.6.0",
+    "setuptools==67.4.0",
+    "sniffio==1.3.0",
+    "SQLAlchemy==1.4.41",
+    "sqlalchemy2-stubs==0.0.2a32",
+    "sqlmodel==0.0.8",
+    "starlette==0.22.0",
+    "tenacity==8.2.2",
+    "typer==0.4.2",
+    "typing-extensions==4.5.0",
+    "uvicorn==0.20.0",
+    "websockets==10.4",
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.scripts]
+server = "pc run"
