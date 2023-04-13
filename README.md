@@ -4,6 +4,7 @@ Repo to save my OSS projects.
 
 ## 2023 Archive
 
+* [Ruby & RoR Practice](./Practices/2023_Ruby)
 * [PyneCone Explore Practice](./Practices/2023_pc_explore)
 * [JobScout Practice](./Practices/2023_JobScout)
 * [Angular Docs Tutorial Practice](./Practices/2023_Angular-Docs-Tutorial)
