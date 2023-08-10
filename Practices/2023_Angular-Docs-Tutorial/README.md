@@ -12,11 +12,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Routing
 - RxJS
 - Observables & Asynchronous calls
+- Lazy Modules
+- Guards
+- SSR
 
 ## Topics to Learn
 
 - Testing (cypress)
-- Lazy Modules
 - Multi-Page Applications
-- Guards
-- SSR
