@@ -4,6 +4,7 @@ Repo to save my OSS projects.
 
 ## 2023 Archive
 
+* [Greenie Web Internship Attempt](./Internships/2023_Greenie_Web)
 * [Lyft Back-End Engineering Job Simulation Program](./Practices/2023_Lyft_Back-End-Engineering_Job_Simulation)
 * [Ruby & RoR Practice](./Practices/2023_Ruby)
 * [PyneCone Explore Practice](./Practices/2023_pc_explore)
