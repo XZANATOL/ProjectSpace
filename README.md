@@ -4,6 +4,7 @@ Repo to save my OSS projects.
 
 ## 2023 Archive
 
+* [Embedded System: Multi Function Keyboard](./Practices/2023_Multi_fn_keyboard)
 * [Vimeo to YT Uploader](./Practices/2023_Vimeo_to_YT_uploader)
 * [Greenie Web Internship Attempt](./Internships/2023_Greenie_Web)
 * [Lyft Back-End Engineering Job Simulation Program](./Practices/2023_Lyft_Back-End-Engineering_Job_Simulation)
