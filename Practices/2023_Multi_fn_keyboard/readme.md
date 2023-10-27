@@ -28,6 +28,8 @@ A Python script that monitors Serial data comming from the Arduino System. It's 
 
 An Arduino UNO with a circuit of push buttons, capacitors, diodes, & a resistor. The setup is built to eleminate bouncing behavior in the push buttons.
 
+![Schematic](./proteus/schematic.png)
+
 #### Usage
 
 The project can be totally simulated on Proteus. Code can be found within `Multi_fn_keyboard.pdsprj`.
