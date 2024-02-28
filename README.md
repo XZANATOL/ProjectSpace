@@ -2,6 +2,10 @@
 
 Archive to my OSS projects.
 
+## 2024 Archive
+
+* [Java Spring](./Practices/2024_Java_Spring)
+
 ## 2023 Archive
 
 * [Advent of Code](./Practices/2023_Advent_of_Code)
