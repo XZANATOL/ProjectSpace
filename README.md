@@ -4,6 +4,7 @@ Archive to my OSS projects.
 
 ## 2024 Archive
 
+* [Computer Graphics Visualizer](./Practices/2024_Computer_Graphics_Visualizer)
 * [Java Spring](./Practices/2024_Java_Spring)
 
 ## 2023 Archive
